@@ -13,12 +13,14 @@ document.getElementById("toString").innerHTML = str;
 let str2 = cats.join(" ^ ");
 document.getElementById("join").innerHTML = str2;
 
-// he pop() method removes the last element from an array:
+// The pop() method removes the last element from an array:
 const dogs = ["Black Dog","Doggo","Good Boi"];
 document.getElementById("popArray").innerHTML = dogs;
 dogs.pop();
 document.getElementById("pop").innerHTML = dogs;
-let
+// The pop() method returns the value that was "popped out":
+let removeLast = dogs.pop();
+document.getElementById("popOut").innerHTML = removeLast;
 
 
 
