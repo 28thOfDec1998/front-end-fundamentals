@@ -1,6 +1,5 @@
 console.log(21+23)
 console.log((4+6+9) / 77)
-
 // 
 
 let numberOne = 10;
