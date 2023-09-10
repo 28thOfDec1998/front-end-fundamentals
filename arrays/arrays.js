@@ -22,5 +22,14 @@ document.getElementById("pop").innerHTML = dogs;
 let removeLast = dogs.pop();
 document.getElementById("popOut").innerHTML = removeLast;
 
+// The push() method adds a new element to an array (at the end):
+const birds = ["Red Bird","Cute Bird","Goofy Bird"];
+birds.push("Angry Bird");
+// The push() method returns the new array length:
+document.getElementById("push").innerHTML = birds + " ---->  " + "Lenght Of Array Is: " + birds.push("Angry Bird");
+
+// The shift() method removes the first array element and "shifts" all other elements to a lower index.
+
+
 
 
