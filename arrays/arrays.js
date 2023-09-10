@@ -53,6 +53,25 @@ const numbers =  [[1,2],[3,4],[5,6]];
 let newNumbers = numbers.flat();
 document.getElementById("flat").innerHTML = newNumbers;
 
+// The splice() method can be used to add new items to an array:
+const colors = ['Black','Red','Green'];
+colors.splice(1,0,'Purple','Yellow');
+document.getElementById("splice").innerHTML = colors;
+// The splice() method returns an array with the deleted items:
+const arr1 = ['itemOne','itemTwo','itemThree'];
+let deleted = arr1.slice(0,1);
+document.getElementById("spliceDeleted").innerHTML = arr1 + " " + " Deleted items: " +  deleted;
+
+// The slice() method slices out a piece of an array into a new array.
+const arr2 = [1,2,3,4,5,6];
+let newArr= arr2.slice(0,3);
+document.getElementById("slice").innerHTML = arr2 + " " + " The Sliced Piece Of Array: "+ newArr;
+
+
+
+
+
+
 
 
 
