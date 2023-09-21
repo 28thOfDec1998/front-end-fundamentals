@@ -64,3 +64,31 @@ findLargestNum = (firstNum,secondNum,thirdNum) =>{
     }
 }
 findLargestNum(10,5,12);
+
+// Check if a triangle is equilateral, scalene, or isosceles
+findTriangleType = (valueOne,valueTwo,valueThree) =>{
+    document.getElementById("threeValues").innerHTML = "The First Parameter is: " + valueOne +" "+ " The Second Parameter Is: "+ valueTwo +" "+ " & The Third Parameter Is: "+ valueThree;
+
+    if(valueOne === valueTwo && valueOne === valueThree  ){
+        return document.getElementById("triangle").innerHTML = "Equilateral triangle.";
+    }
+    else if (valueOne === valueTwo || valueOne === valueThree || valueTwo === valueThree ){
+        return document.getElementById("triangle").innerHTML = "Isosceles triangle.";
+    }else{
+        return document.getElementById("triangle").innerHTML = "Scalene triangle.";
+    }
+}
+findTriangleType(2,0,1);
+
+// Find the a number is present in given range
+checkInRange = (num,start,end) =>{
+
+    document.getElementById("input").innerHTML = "The First Parameter is: " + num +" "+ " The Second Parameter Is: "+ start +" "+ " & The Third Parameter Is: "+ end;
+
+    if(num >= start && num <= end){
+        return document.getElementById("range").innerHTML = "In Range";
+    }else{
+        return document.getElementById("range").innerHTML = "Outside The Range"
+    }
+}
+checkInRange(20,1,19);
