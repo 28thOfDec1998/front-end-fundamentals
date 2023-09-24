@@ -85,3 +85,7 @@ document.getElementById("slice").innerHTML = arr2 + " " + " The Sliced Piece Of 
 
 
 
+
+
+
+
