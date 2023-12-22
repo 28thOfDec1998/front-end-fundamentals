@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Poppins:wght@200&family=Ubuntu:wght@300;400;500&display=swap");
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+/*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+    5. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+    6. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+    7. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+a {
+  text-decoration: none;
+}
+/*
+    8. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: #121212;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem 1rem 0 1rem;
+  border: 1px white solid;
+}
+
+.flex-scetion {
+  border: 1px white solid;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.flex-scetion .title {
+  display: flex;
+  justify-content: center;
+  border: 1px white solid;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.flex-scetion .info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* background: white;
+  color: black; */
+  padding: 0.5rem;
+  margin: 1rem 1rem 1rem 1rem;
+  border: 1px white solid;
+}
+
+/* CSS FOR JUSTIFY CONTENT */
+
+.cat {
+  width: 96px;
+  height: 89px;
+  background: url(/assets/img/cool_cat.gif);
+}
+
+.content {
+
+  background: white;
+  color: black;
+  max-width: 100%;
+  height: 300px;
+  margin: 0 1rem 0 1rem;
+  border: 2px rgb(0, 0, 0) solid;
+}
+
+/* Flex end */
+.flex-scetion .flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* center */
+.flex-scetion .center {
+  display: flex;
+  justify-content: center;
+}
+
+/* space-between */
+.flex-scetion .space-between{
+    display: flex;
+    justify-content: space-between;
+}
