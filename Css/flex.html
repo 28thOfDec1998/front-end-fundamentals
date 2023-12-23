@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="play-ground.css" />
   </head>
   <body>
+
     <header>
       <h1>CSS FLEX</h1>
     </header>
+    
     <!-- justify content -->
     <section class="flex-scetion">
       <div class="title"><h2>Justify-Content</h2></div>
@@ -24,7 +26,7 @@
             </em>
           </p>
         </div>
-        <div class=" content flex-end">
+        <div class="content flex-end">
           <div class="cat"></div>
         </div>
       </div>
@@ -47,10 +49,29 @@
         <div class="info">
           <h3>Space-Between</h3>
           <p>
-            Items display with equal spacing between them.<em> (CAT JAM !!!) </em>
+            Items display with equal spacing between them.<em>
+              (CAT JAM !!!)
+            </em>
           </p>
         </div>
-        <div class=" content space-between">
+        <div class="content space-between">
+          <div class="cat"></div>
+          <div class="cat"></div>
+          <div class="cat"></div>
+        </div>
+      </div>
+
+      <!-- space-around -->
+      <div>
+        <div class="info">
+          <h3>Space-Around</h3>
+          <p>
+            Items display with equal spacing around them.<em>
+              (CAT JAM !!!)
+            </em>
+          </p>
+        </div>
+        <div class="content space-around">
           <div class="cat"></div>
           <div class="cat"></div>
           <div class="cat"></div>
@@ -58,21 +79,96 @@
       </div>
     </section>
 
+    <!-- Align-Items -->
+    <section class="flex-scetion">
+      <div class="title"><h2>Align-Items</h2></div>
 
-
-
-
-
-
-<!-- 
-    <section>
-      <div class="title"><h2>Justify-Content</h2></div>
-      <div class="info">
-        <h3>Flex-End</h3>
-        <p>
-          Items align to the right side of the container. <em>(CAT JAM !!!)</em>
-        </p>
+      <!-- align-items flex-end -->
+      <div>
+        <div class="info">
+          <h3>Flex-end</h3>
+          <p>
+            Items align to the bottom of the container.<em> (CAT JAM !!!) </em>
+          </p>
+        </div>
+        <div class="content align-flex-end">
+          <div class="cat"></div>
+        </div>
       </div>
-    </section> -->
+
+      <!-- align-items center -->
+      <div>
+        <div class="info">
+          <h3>Center</h3>
+          <p>
+            Items align at the vertical center of the container.<em>
+              (CAT JAM !!!)
+            </em>
+          </p>
+        </div>
+        <div class="content align-center">
+          <div class="cat"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flex-direction -->
+    <section class="flex-scetion">
+      <div class="title"><h2>Flex-Direction</h2></div>
+
+      <!-- Flex-direction row -->
+      <div>
+        <div class="info">
+          <h3>Row & Row-Reverse</h3>
+          <p>
+            <strong>R : </strong> Items are placed the same as the text
+            direction. <strong>RR : </strong>Items are placed opposite to the
+            text direction.<em> (3 CATS!!!) </em>
+          </p>
+        </div>
+        <div class="content flex-r">
+          <div class="r">
+            <p>Row !</p>
+            <div class="cat"></div>
+            <div class="cat2"></div>
+            <div class="cat3"></div>
+          </div>
+          <div class="rr">
+            <p>Row-Reverse !</p>
+            <div class="cat"></div>
+            <div class="cat2"></div>
+            <div class="cat3"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flex-direction column  -->
+      <div>
+        <div class="info">
+          <h3>Column & Column-Reverse</h3>
+          <p>
+            <strong>C : </strong>Items are placed top to bottom.
+            <strong>CR : </strong> Items are placed bottom to top.<em>
+              (3 CATS!!!)
+            </em>
+          </p>
+        </div>
+        <div class="content flex-c">
+          <div class="c">
+            <p>Column !</p>
+            <div class="cat"></div>
+            <div class="cat2"></div>
+            <div class="cat3"></div>
+          </div>
+          <div class="cr">
+            <p>Column-Reverse !</p>
+            <div class="cat"></div>
+            <div class="cat2"></div>
+            <div class="cat3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </body>
 </html>

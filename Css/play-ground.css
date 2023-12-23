@@ -117,8 +117,23 @@ header {
   background: url(/assets/img/cool_cat.gif);
 }
 
-.content {
+.cat2 {
+  width: 96px;
+  height: 89px;
+  background: url(/assets/img/coco_cat.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.cat3 {
+  width: 96px;
+  height: 89px;
+  background: url(/assets/img/nono_cat.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
   background: white;
   color: black;
   max-width: 100%;
@@ -140,7 +155,64 @@ header {
 }
 
 /* space-between */
-.flex-scetion .space-between{
-    display: flex;
-    justify-content: space-between;
+.flex-scetion .space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* space-around */
+.flex-scetion .space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* CSS FOR ALIGN ITEMS */
+
+/* align-items flex-items */
+.flex-scetion .align-flex-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* align-items center */
+
+.flex-scetion .align-center {
+  display: flex;
+  align-items: center;
+}
+
+/* flex-direction CSS */
+
+/* Flex-direction row */
+
+.flex-scetion .flex-r {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-scetion .flex-r .r {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-scetion .flex-r .rr {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Flex-direction column */
+
+.flex-scetion .flex-c {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-scetion .flex-c .c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-scetion .flex-c .cr {
+  display: flex;
+  flex-direction: column-reverse;
 }
