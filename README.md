@@ -1,2 +1,2 @@
-# js-fundamentals
-js practice
+# front-end-fundamentals
+front-end practice
